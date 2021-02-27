@@ -14,7 +14,7 @@ class Main{
         Scanner sc = new Scanner(System.in);
         
         int t=sc.nextInt();
-        while(t>=0){
+        while(t>0){
             
         System.out.println("Enter N : ");
         int n = sc.nextInt();
@@ -32,7 +32,7 @@ class Main{
         ArrayList<Integer> bk = new ArrayList<Integer>();
         
         for(int i=0;i<n;i++){
-            if(i%2!=0){
+            if(i%2==0){
                 
                 bk.add(a);
                 a=a+2;
